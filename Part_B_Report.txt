@@ -1,0 +1,16 @@
+1. Ben Yu and Kevin Zhu
+2. Original HMM parameters:
+    a. Total count of correctly tagged words in the test data: 29531
+    b. Total count of words in the test data: 73523
+    c. Percentage correct (calculated from the previous two values): 40.166%
+3. HMM parameters with Laplace smoothing:
+    a. Total count of correctly tagged words in the test data: 70868
+    b. Total count of words in the test data: 73523
+    c. Percentage correct (calculated from the previous two values): 96.389%
+4. Something you learned doing this assignment:
+   LaPlace smoothing for extremely large training sets will make a HUGE impact on the
+   performance when evaluating a hidden Markov Model, likely because it heavily prevents
+   overfitting
+5. Biggest challenge you faced doing this assignment:
+   Both implementing the algorithms, as well as finding a way to keep the file size for the
+   JSON files relatively small (at least, small enough for GradeScope) were both rather challenging.
